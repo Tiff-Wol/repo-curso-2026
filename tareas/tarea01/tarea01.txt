@@ -1,0 +1,322 @@
+[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/curso-e520[36m (main)[0m
+$ [7m# --- 1. Ubicación y navegación ---[27m[C[C[1P# --- 1. Ubicación y navegación --[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m# --- 1. Ubicación y navegación ---[27m
+[7mpwd[27m[A# --- 1. Ubicación y navegación ---
+pwd
+[?2004l/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/curso-e520[36m (main)[0m
+$ cd /
+[?2004l[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ pwd
+[?2004l/
+[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd home
+[?2004lbash: cd: home: No such file or directory
+[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ pwd
+[?2004l/
+[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ pwd
+[?2004l/
+[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd ~
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd ..
+[?2004l[?2004h]0;MINGW64:/c/Users
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
+$ pwd
+[?2004l/c/Users
+[?2004h]0;MINGW64:/c/Users
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd ../..
+[?2004l[?2004h]0;MINGW64:/c
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
+$ pwd
+[?2004l/c
+[?2004h]0;MINGW64:/c
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7mcd ../../etc[27m[C[Ccd ../../etc
+[?2004lbash: cd: ../../etc: No such file or directory
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pw
+[?2004lbash: pw: command not found
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7m--- 2. Rutas relativas y absolutas ---[27m
+[7mcd /etc[27m[A[C[C--- 2. Rutas relativas y absolutas ---
+cd /etc
+[?2004lbash: ---: command not found
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ cd /
+[?2004l[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd etc
+[?2004l[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ pwd
+[?2004l/etc
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd etc
+[?2004lbash: cd: etc: No such file or directory
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd/[K /etc
+[?2004l[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ pwd
+[?2004l/etc
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ whoami
+[?2004lestudiante
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ [7mcd /home/user/Desktop[27m[C[Ccd /home/user/Desktop
+[?2004lbash: cd: /home/user/Desktop: No such file or directory
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ [7mcd /home/user/Desktop[27m[C[C[1Pcd /home/user/Deskto[K[K[K[K[K[K[K
+[?2004lbash: cd: /home/user: No such file or directory
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ pwd
+[?2004l/etc
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ pwd
+[?2004l/etc
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ [7mcd /home/user/Desktop[27m[C[C[1Pcd /home/user/Deskto[K[K[K[K[K[Kescritorio
+[?2004lbash: cd: /home/user/escritorio: No such file or directory
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ [7mcd /home/user/Desktop[27m[C[C[1Pcd /home/user/Deskto[K[K[K[K[KESKTOP
+[?2004lbash: cd: /home/user/DESKTOP: No such file or directory
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd ~
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7mcd ~/Desktop[27m[C[Ccd ~/Desktop
+[?2004lbash: cd: /c/Users/estudiante/Desktop: No such file or directory
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7mcd ~/Desktop[27m[C[C[1Pcd ~/Deskto[K[K[K[K[K[Kusers
+[?2004lbash: cd: /c/Users/estudiante/users: No such file or directory
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7mcd ~/Desktop[27m[C[C[1Pcd ~/Deskto[K[K[K[K[K[Kc
+[?2004lbash: cd: /c/Users/estudiante/c: No such file or directory
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ pwd
+[?2004l/c/Users/estudiante
+[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ cd /
+[?2004l[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd ~/Desktop
+[?2004lbash: cd: /c/Users/estudiante/Desktop: No such file or directory
+[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd /etc
+[?2004l[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ cd /var /log
+[?2004lbash: cd: too many arguments
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ [7mcd /var/log[27m[C[Ccd /var/log
+[?2004lbash: cd: /var/log: No such file or directory
+[?2004h]0;MINGW64:/etc
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
+$ cd ..
+[?2004l[?2004h]0;MINGW64:/
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
+$ cd
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
+$ [7mcd ~/OneDrive/Documentos/curso-e520[27m[C[Ccd ~/OneDrive/Documentos/curso-e520
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/curso-e520[36m (main)[0m
+$ [7m# --- 3. Crear carpetas y archivos ---[27m[C[C# --- 3. Crear carpetas y archivos ---
+[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/curso-e520[36m (main)[0m
+$ [7mmkdir /tmp/tutorial[27m[C[Cmkdir /tmp/tutorial
+[?2004lmkdir: cannot create directory ‘/tmp/tutorial’: File exists
+[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/curso-e520
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/curso-e520[36m (main)[0m
+$ [7mcd /tmp/tutorial[27m[C[Ccd /tmp/tutorial
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7m mkdir dir1 dir2 dir3[27m[C[C mkdir dir1 dir2 dir3
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir[27m[C[Cmkdir}[K
+[?2004lmkdir: missing operand
+Try 'mkdir --help' for more information.
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mcd /etc ~/Desktop[27m[C[C[1Pcd /etc ~/Deskto[K[K[K[K[K[K[7m/OneDrive/Documentos/curso-e520[27m[C[C[C[C[C[C[C[C[C[C[C[C[1P/OneDrive/Documentos/curso-e52[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m/OneDrive/Documentos/curso-e520[27m[C[C[C[C[C[C[C[C[C[C[C/OneDrive/Documentos/curso-e520
+[?2004lbash: cd: too many arguments
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ls
+[?2004ldir1/
+dir2/
+dir3/
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ^[[200~mkdir -p dir4/dir5/dir6[?5h[?5l~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[7mmkdir -p dir4/dir5/dir6[27m[C[Cmkdir -p dir4/dir5/dir6
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ls
+[?2004ldir1/
+dir2/
+dir3/
+dir4/
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mcd dir4[27m[C[Ccd dir4
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
+$ ls
+[?2004ldir5/
+[?2004h]0;MINGW64:/tmp/tutorial/dir4
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
+$ [7m cd dir5[27m[C[C cd dir5
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
+$ ls
+[?2004ldir6/
+[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
+$ [7mcd ../..[27m[C[Ccd ../..
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir --parents --verbose dir4/dir5[27m[C[Cmkdir --parents --verbose dir4/dir5
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ V[K[7m mkdir -p --verbose dir4/dir5[27m[C[C mkdir -p --verbose dir4/dir5
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir -p -v dir4/dir5[27m[C[Cmkdir -p -v dir4/dir5
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir -pv dir4/dir5[27m[C[Cmkdir -pv dir4/dir5
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir another folder[27m[C[Cmkdir another folder
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ls
+[?2004lanother/
+dir1/
+dir2/
+dir3/
+dir4/
+folder/
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir "folder 1"[27m[C[Cmkdir "folder 1"
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir 'folder 2'[27m[C[Cmkdir 'folder 2'
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ [7mmkdir folder\ 3[27m[C[Cmkdir folder\ 3
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ V[K[7mmkdir "folder 4" "folder 5"[27m[C[Cmkdir "folder 4" "folder 5"
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ V[K[7mmkdir -p "folder 6"/"folder 7"[27m[C[Cmkdir -p "folder 6"/"folder 7"
+[?2004l[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ls
+[?2004lanother/
+dir1/
+dir2/
+dir3/
+dir4/
+folder/
+folder 1/
+folder 2/
+folder 3/
+folder 4/
+folder 5/
+folder 6/
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ ls
+[?2004lanother/
+dir1/
+dir2/
+dir3/
+dir4/
+folder/
+folder 1/
+folder 2/
+folder 3/
+folder 4/
+folder 5/
+folder 6/
+[?2004h]0;MINGW64:/tmp/tutorial
+[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
+$ exit
+[?2004llogout
