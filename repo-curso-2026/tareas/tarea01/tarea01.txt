@@ -1,1054 +1,0 @@
-[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026[36m (main)[0m
-$ #[7mOpening a terminal (Ubicación y navegación)[27m[C[C[COpening a terminal (Ubicación y navegación)
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026[36m (main)[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ pwd
-[?2004l/
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd home
-[?2004lbash: cd: home: No such file or directory
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd *
-[?2004lbash: cd: too many arguments
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ x[Kcd *[K~
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /home
-[?2004lbash: cd: /home: No such file or directory
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ..
-[?2004l[?2004h]0;MINGW64:/c/Users
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
-$ pwd
-[?2004l/c/Users
-[?2004h]0;MINGW64:/c/Users
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ../..
-[?2004l[?2004h]0;MINGW64:/c
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
-$ pwd
-[?2004l/c
-[?2004h]0;MINGW64:/c
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ./[K./..
-[?2004l[?2004h]0;MINGW64:/c
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
-$ cd ../../etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ #[7mRelative and absolute paths (Rutas relativas y absolutas)[27m[C[C[CRelative and absolute paths (Rutas relativas y absolutas)
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ d[Kcd etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd etc
-[?2004lbash: cd: etc: No such file or directory
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ whoami
-[?2004lestudiante
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd ~
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mcd ~/OneDrive/Desktop[27m[C[Ccd ~/OneDrive/Desktop
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ [7mcd ~/Desktop[27m[C[Ccd ~/Desktop
-[?2004lbash: cd: /c/Users/estudiante/Desktop: No such file or directory
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ [7mcd ~/OneDrive/Desktop[27m[C[Ccd ~/OneDrive/Desktop
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ cd /etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd /var
-[?2004lbash: cd: /var: No such file or directory
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd/var/l[K[K[K[K[K[K va[K[K/vsr[K[Kat[Kr/log
-[?2004lbash: cd: /var/log: No such file or directory
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ [7mcd /usr/bin[27m[C[Ccd /usr/bin
-[?2004l[?2004h]0;MINGW64:/usr/bin
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/usr/bin[36m[0m
-$ cd ..
-[?2004l[?2004h]0;MINGW64:/usr
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/usr[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ #[7mCreating folders and files (Crear carpetas y archivos)[27m[C[C[CCreating folders and files (Crear carpetas y archivos)
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mmkdir /tmp/tutorial[27m[C[Cmkdir /tmp/tutorial
-[?2004lmkdir: cannot create directory ‘/tmp/tutorial’: File exists
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mcd /tmp/tutorial[27m[C[Ccd /tmp/tutorial
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir dir1 dir2 dir3[27m[C[Cmkdir dir1 dir2 dir3
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ mkdir
-[?2004lmkdir: missing operand
-Try 'mkdir --help' for more information.
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcd /etc ~/Desktop[27m[C[Ccd /etc ~/Desktop
-[?2004lbash: cd: too many arguments
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004ldir1/
-dir2/
-dir3/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir -p dir4/dir5/dir6[27m[C[Cmkdir -p dir4/dir5/dir6
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004ldir1/
-dir2/
-dir3/
-dir4/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ cd dir4
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
-$ ls
-[?2004ldir5/
-[?2004h]0;MINGW64:/tmp/tutorial/dir4
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
-$ cd dir5
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
-$ ls
-[?2004ldir6/
-[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
-$ cd ../..
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir --parents --verbose dir4/dir5[27m[C[Cmkdir --parents --verbose dir4/dir5
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir another folde[27m[C[Cmkdir another folder
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004lanother/
-dir1/
-dir2/
-dir3/
-dir4/
-folder/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir "folder 1"[27m[C[Cmkdir "folder 1"
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir 'folder 2'[27m[C[Cmkdir 'folder 2'
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir folder\ 3[27m[C[Cmkdir folder\ 3
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir "folder 4" "folder 5"[27m[C[Cmkdir "folder 4" "folder 5"
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir -p "folder 6"/"folder 7[27m[C[Cmkdir -p "folder 6"/"folder 7
-[?2004l[?2004h> [?5h[?5l[7mmkdir -p "folder 6"/"folder 7[27m[C[Cmkdir -p "folder 6"/"folder 7"
-[?2004l[?2004h> [?5h[?5l[?5h[?5l[?5h[?5lls
-[?2004l[?2004h> [?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026[36m (main)[0m
-$ #[7mEjercicios de Ubicación y Navegación[27m[C[C[CEjercicios de Ubicación y Navegación
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Documentos/Curso Ciencia de Datos/repo-curso-2026[36m (main)[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ pwd
-[?2004l/
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd home
-[?2004lbash: cd: home: No such file or directory
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ pwd
-[?2004l/
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd ~
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /home
-[?2004lbash: cd: /home: No such file or directory
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ..
-[?2004l[?2004h]0;MINGW64:/c/Users
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
-$ pwd
-[?2004l/c/Users
-[?2004h]0;MINGW64:/c/Users
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ../..
-[?2004l[?2004h]0;MINGW64:/c
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
-$ pwd
-[?2004l/c
-[?2004h]0;MINGW64:/c
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c[36m[0m
-$ cd ../
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd ../..
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ pwd
-[?2004l/
-[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd ../
-[?2004l[?2004h]0;MINGW64:/c/Users
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/c/Users[36m[0m
-$ cd ../..
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd ../../etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ #[7mRutas Absolutas y Relativas[27m[C[C[CRutas Absolutas y Relativas
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ cd etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd etc
-[?2004lbash: cd: etc: No such file or directory
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ pwd
-[?2004l/etc
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ whoami
-[?2004lestudiante
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ [7mcd /home/user/Desktop[27m[C[C[1Pcd /home/user/Deskto[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc/Users/estudiante
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /c/Users/estudiante[7m/OneDrive/Desktop[27m/OneDrive/Desktop
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ pwd
-[?2004l/c/Users/estudiante/OneDrive/Desktop
-[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ cd ~
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mcd ~/Desktop[27m[C[Ccd ~/Desktop
-[?2004lbash: cd: /c/Users/estudiante/Desktop: No such file or directory
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ pwd
-[?2004l/c/Users/estudiante
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mcd ~/OneDrive/Desktop[27m[C[Ccd ~/OneDrive/Desktop
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ pwd
-[?2004l/c/Users/estudiante/OneDrive/Desktop
-[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ cd /
-[?2004l[?2004h]0;MINGW64:/
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/[36m[0m
-$ [7mcd ~/OneDrive/Desktop[27m[C[Ccd ~/OneDrive/Desktop
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante/OneDrive/Desktop
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~/OneDrive/Desktop[36m (master)[0m
-$ cd /etc
-[?2004l[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ cd /var/log
-[?2004lbash: cd: /var/log: No such file or directory
-[?2004h]0;MINGW64:/etc
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/etc[36m[0m
-$ V[K[7mcd /usr/bin[27m[C[Ccd /usr/bin
-[?2004l[?2004h]0;MINGW64:/usr/bin
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/usr/bin[36m[0m
-$ cd ..
-[?2004l[?2004h]0;MINGW64:/usr
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/usr[36m[0m
-$ cd
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ #[7mCrear Carpetas y Archivos[27m[C[C[CCrear Carpetas y Archivos
-[?2004l[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ [7mmkdir /tmp/tutorial[27m[C[Cmkdir /tmp/tutorial
-[?2004lmkdir: cannot create directory ‘/tmp/tutorial’: File exists
-[?2004h]0;MINGW64:/c/Users/estudiante
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m~[36m (main)[0m
-$ V[K[7mcd /tmp/tutorial[27m[C[Ccd /tmp/tutorial
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir dir1 dir2 dir3[27m[C[Cmkdir dir1 dir2 dir3
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ mkdir
-[?2004lmkdir: missing operand
-Try 'mkdir --help' for more information.
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7m cd /etc ~/Desktop[27m[C[C cd /etc ~/Desktop
-[?2004lbash: cd: too many arguments
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004ldir1/
-dir2/
-dir3/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir -p dir4/dir5/dir6[27m[C[Cmkdir -p dir4/dir5/dir6
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004ldir1/
-dir2/
-dir3/
-dir4/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ cd dir4
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
-$ ls
-[?2004ldir5/
-[?2004h]0;MINGW64:/tmp/tutorial/dir4
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4[36m (main)[0m
-$ cd dir5
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
-$ ls
-[?2004ldir6/
-[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
-$ cd../..
-[?2004lbash: cd../..: No such file or directory
-[?2004h]0;MINGW64:/tmp/tutorial/dir4/dir5
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial/dir4/dir5[36m (main)[0m
-$ cd ./[K./..
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir --parents --verbose dir4/dir5[27m[C[Cmkdir --parents --verbose dir4/dir5
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir another folder[27m[C[Cmkdir another folder
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004lanother/
-dir1/
-dir2/
-dir3/
-dir4/
-folder/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir "folder 1"[27m[C[Cmkdir "folder 1"
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mmkdir 'folder 2'[27m[C[Cmkdir 'folder 2'
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir folder\ 3[27m[C[Cmkdir folder\ 3
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mmkdir "folder 4" "folder 5"[27m[C[Cmkdir "folder 4" "folder 5"
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmkdir -p "folder 6"/"folder 7"[27m[C[Cmkdir -p "folder 6"/"folder 7"
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004lanother/
-dir1/
-dir2/
-dir3/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls > output.txt[27m[C[Cls > output.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7m cat output.txt[27m[C[C cat output.txt
-[?2004lanother/
-dir1/
-dir2/
-dir3/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ cat
-[?2004lhola
-nube
-cat
-
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [K$ [7mecho "This is a test"[27m[C[Cecho "This is a test"
-[?2004lThis is a test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho "This is a test" > test_1.txt[27m[C[Cecho "This is a test" > test_1.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho "This is a second test" > test_2.txt[27m[C[Cecho "This is a second test" > test_2.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho "This is a third test" > test_3.txt[27m[C[Cecho "This is a third test" > test_3.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004lanother/
-dir1/
-dir2/
-dir3/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-test_1.txt
-test_2.txt
-test_3.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat test_1.txt test_2.txt test_3.txt[27m[C[Ccat test_1.txt test_2.txt test_3.txt
-[?2004lThis is a test
-This is a second test
-This is a third test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mcat test_?.txt[27m[C[Ccat test_?.txt
-[?2004lThis is a test
-This is a second test
-This is a third test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat test_*[27m[C[Ccat test_*
-[?2004lThis is a test
-This is a second test
-This is a third test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat t* > combined.txt[27m[C[Ccat t* > combined.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat combined.txt[27m[C[Ccat combined.txt
-[?2004lThis is a test
-This is a second test
-This is a third test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ cat combined.txt[C[C[C[C[C[C[5@t* > [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004lThis is a test
-This is a second test
-This is a third test
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7m cat t* >> combined.txt[27m[C[C cat t* >> combined.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7m echo "I've appended a line!" >> combined.txt[27m[C[C echo "I've appended a line!" >> combined.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat combined.txt[27m[C[Ccat combined.txt
-[?2004lThis is a test
-This is a second test
-This is a third test
-This is a test
-This is a second test
-This is a third test
-I've appended a line!
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ cat combined.txt[C[C[29@ echo "I've appended a line!" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [?5h[?5l[?5h[?5l cat t* >> combined.txt[C[C[7Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29@ echo "I've appended a line!" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22@echo "I've appended a line!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@M[1P[1@A[1@m[1@o[1@ [1@a[1@ [1@l[1@o[1@s[1@ [1@m[1@i[1@c[1@h[1@i[1@s
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$  echo "Amo a los michis!" >> combined.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[C[1P[1@T[1@w[1@e[1@n[1@t[1@y[1@ [1@O[1@n[1@e[1@ [1@P[1@i[1@l[1@o[1@t[1@s
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$  echo "Twenty One Pilots" >> combined.txt[C[C[C[C[C[C[C[C[CAmo a los michis![C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29@ echo "I've appended a line!" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004lThis is a test
-This is a second test
-This is a third test
-This is a test
-This is a second test
-This is a third test
-I've appended a line!
-This is a test
-This is a second test
-This is a third test
-Amo a los michis!
-Twenty One Pilots
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mless combined.txt[27m[C[Cless combined.txt
-[?2004lThis is a test
-This is a second test
-This is a third test
-This is a test
-This is a second test
-This is a third test
-I've appended a line!
-This is a test
-This is a second test
-This is a third test
-Amo a los michis!
-Twenty One Pilots
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ less combined.txt[C[C[K[7mecho "Lower case" > a.txt[27m[C[Cecho "Lower case" > a.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mecho "Upper case" > A.TXT[27m[C[Cecho "Upper case" > A.TXT
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho "Mixed case" > A.txt[27m[C[Cecho "Mixed case" > A.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ #[7mMover, Copiar y Borrar[27m[C[C[CMover, Copiar y Borrar
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mmv combined.txt dir1[27m[C[Cmv combined.txt dir1
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls dir1
-[?2004lcombined.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mmv dir1/* .[27m[C[Cmv dir1/* .
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv combined.txt test_* dir3 dir2[27m[C[Cmv combined.txt test_* dir3 dir2
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-dir1/
-dir2/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls dir2
-[?2004lcombined.txt
-dir3/
-test_1.txt
-test_2.txt
-test_3.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv dir2/combined.txt dir4/dir5/dir6[27m[C[Cmv dir2/combined.txt dir4/dir5/dir6
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls dir2
-[?2004ldir3/
-test_1.txt
-test_2.txt
-test_3.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls dir4/dir5/dir6[27m[C[Cls dir4/dir5/dir6
-[?2004lcombined.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcp dir4/dir5/dir6/combined.txt .[27m[C[Ccp dir4/dir5/dir6/combined.txt .
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls dir4/dir/5[K[K5/dir6
-[?2004lcombined.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-combined.txt
-dir1/
-dir2/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls dir4/dir5/dir6[C[C[C[C[K[K[?5h[?5l[?5h[?5lls dir4/dir5/dir6[C[Ccp dir4/dir5/dir6/combined.txt .[C[C[15Pls dir4/dir5/dir6[C[C[C[C[K[K[7mcp combined.txt backup_combined.txt[27m[C[Ccp combined.txt backup_combined.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-backup_combined.txt
-combined.txt
-dir1/
-dir2/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv backup_combined.txt combined_backup.txt[27m[C[Cmv backup_combined.txt combined_backup.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-combined.txt
-combined_backup.txt
-dir1/
-dir2/
-dir4/
-folder/
-folder 1/
-folder 2/
-folder 3/
-folder 4/
-folder 5/
-folder 6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 1" folder_1[27m[C[C[1Pmv "folder 1" folder_[K[K[K[K[K[K[Kclase 1
-[?2004lmv: target '1' is not a directory
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 1" folder_1[27m[C[Cmv "folder 1" folder_1
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 2" folder_2[27m[C[Cmv "folder 2" folder_2
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 2" folder_2[27m[C[C[1Pmv "folder 2" folder_3[1P[1@3[1P[C[1P[1@ [1@3
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 4" folder_4[27m[C[Cmv "folder 4" folder_4
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mmv "folder 5" folder_5[27m[C[Cmv "folder 5" folder_5
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ V[K[7mmv "folder 6" folder_6[27m[C[Cmv "folder 6" folder_6
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-combined.txt
-combined_backup.txt
-dir1/
-dir2/
-dir4/
-folder/
-folder_1/
-folder_2/
-folder_3/
-folder_4/
-folder_5/
-folder_6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ pwd
-[?2004l/tmp/tutorial
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm dir4/dir5/dir6/combined.txt combined_backup.txt[27m[C[Crm dir4/dir5/dir6/combined.txt combined_backup.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm folder_*[27m[C[Crm folder_*
-[?2004lrm: cannot remove 'folder_1': Is a directory
-rm: cannot remove 'folder_2': Is a directory
-rm: cannot remove 'folder_3': Is a directory
-rm: cannot remove 'folder_4': Is a directory
-rm: cannot remove 'folder_5': Is a directory
-rm: cannot remove 'folder_6': Is a directory
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrmdir folder_*[27m[C[Crmdir folder_*
-[?2004lrmdir: failed to remove 'folder_6': Directory not empty
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-combined.txt
-dir1/
-dir2/
-dir4/
-folder/
-folder_6/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm -r folder_6[27m[C[Crm -r folder_6
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ ls
-[?2004la.txt
-another/
-combined.txt
-dir1/
-dir2/
-dir4/
-folder/
-output.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mUn Poco de Plomería[27m[C[C[1PUn Poco de Plomerí[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#[7mUn Poco de Plomería[27m[C[C[CUn Poco de Plomería
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mwc -l combined.txt[27m[C[Cwc -l combined.txt
-[?2004l12 combined.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls ~ > file_list.txt[27m[C[Cls ~ > file_list.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mwc -l file_list.txt[27m[C[Cwc -l file_list.txt
-[?2004l31 file_list.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm file_list.txt[27m[C[Crm file_list.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls ~ | wc -l[27m[C[Cls ~ | wc -l
-[?2004l31
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls /etc|wc -l[27m[C[Cls /etc|wc -l
-[?2004l26
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mls /etc | less[27m[C[Cls /etc | less
-[?2004lbash.bashrc
-DIR_COLORS
-docx2txt.config
-fstab
-gitattributes
-gitconfig
-hosts
-inputrc
-install-options.txt
-minttyrc
-msystem
-msystem.d/
-mtab@
-nanorc
-networks
-nsswitch.conf
-package-versions.txt
-pkcs11/
-pki/
-profile
-profile.d/
-protocols
-services
-ssh/
-tigrc
-vimrc
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat combined.txt | uniq | wc -l[27m[C[Ccat combined.txt | uniq | wc -l
-[?2004l12
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat combined.txt | uniq | less[27m[C[Ccat combined.txt | uniq | less
-[?2004lThis is a test
-This is a second test
-This is a third test
-This is a test
-This is a second test
-This is a third test
-I've appended a line!
-This is a test
-This is a second test
-This is a third test
-Amo a los michis!
-Twenty One Pilots
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mman uniq[27m[C[Cman uniq
-[?2004lbash: man: command not found
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7muniq --help[27m[C[Cuniq --help
-[?2004lUsage: uniq [OPTION]... [INPUT [OUTPUT]]
-Filter adjacent matching lines from INPUT (or standard input),
-writing to OUTPUT (or standard output).
-
-With no options, matching lines are merged to the first occurrence.
-
-Mandatory arguments to long options are mandatory for short options too.
-  -c, --count           prefix lines by the number of occurrences
-  -d, --repeated        only print duplicate lines, one for each group
-  -D                    print all duplicate lines
-      --all-repeated[=METHOD]  like -D, but allow separating groups
-                                 with an empty line;
-                                 METHOD={none(default),prepend,separate}
-  -f, --skip-fields=N   avoid comparing the first N fields
-      --group[=METHOD]  show all items, separating groups with an empty line;
-                          METHOD={separate(default),prepend,append,both}
-  -i, --ignore-case     ignore differences in case when comparing
-  -s, --skip-chars=N    avoid comparing the first N characters
-  -u, --unique          only print unique lines
-  -z, --zero-terminated     line delimiter is NUL, not newline
-  -w, --check-chars=N   compare no more than N characters in lines
-      --help     display this help and exit
-      --version  output version information and exit
-
-A field is a run of blanks (usually spaces and/or TABs), then non-blank
-characters.  Fields are skipped before chars.
-
-Note: 'uniq' does not detect repeated lines unless they are adjacent.
-You may want to sort the input first, or use 'sort -u' without 'uniq'.
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/uniq>
-or available locally via: info '(coreutils) uniq invocation'
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7msort combined.txt | less[27m[C[Csort combined.txt | less
-[?2004lAmo a los michis!
-I've appended a line!
-This is a second test
-This is a second test
-This is a second test
-This is a test
-This is a test
-This is a test
-This is a third test
-This is a third test
-This is a third test
-Twenty One Pilots
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7msort combined.txt | uniq | wc -l[27m[C[Csort combined.txt | uniq | wc -l
-[?2004l6
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comida[27m[7ms[27m[7m.txt[27m[Aecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.t[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@a[1@salocro" > comidas.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdlocro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Colocro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/locro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[?5h[?5l[?5h[?5l[?5h[?5l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[7mecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comida[27m[7ms[27m[7m.txt[27m[Aecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.t[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnlocro" > comidas.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[7mecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comida[27m[7ms[27m[7m.txt[27m[Aecho -e "asado\nempanada\nasado\nmilanesa\nempanada\nasado\nlocro" > comidas.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocro" > comidas.[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Casado\locro" > comidas.t[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cempanada\asado\locro" > comidas.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmilanesa\empanada\asado\locro" > comidas.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Casado\milanesa\empanada\asado\locro" > comidas.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[C[C[C[C[C[C[C[1P[1P[1P[C[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat comidas.txt[27m[C[Ccat comidas.txt
-[?2004lasadompanada\milanesa\locro
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mwc -l comidas.txt[27m[C[Cwc -l comidas.txt
-[?2004l1 comidas.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7msort comidas.txt | uniq -c[27m[C[Csort comidas.txt | uniq -c
-[?2004l      1 asadompanada\milanesa\locro
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm comidas.txt[27m[C[Crm comidas.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mecho -e "rojo\nazul\nverde\nrojo\nazul\nrojo\namarillo" > colores.txt[27m[C[Cecho -e "rojo\nazul\nverde\nrojo\nazul\nrojo\namarillo" > colores.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mcat colores.txt[27m[C[Ccat colores.txt
-[?2004lrojo
-azul
-verde
-rojo
-azul
-rojo
-amarillo
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mwc -l colores.txt[27m[C[Cwc -l colores.txt
-[?2004l7 colores.txt
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7msort colores.txt | uniq -c[27m[C[Csort colores.txt | uniq -c
-[?2004l      1 amarillo
-      2 azul
-      3 rojo
-      1 verde
-[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ [7mrm colores.txt[27m[C[Crm colores.txt
-[?2004l[?2004h]0;MINGW64:/tmp/tutorial
-[32mestudiante@DESKTOP-CUV5ONO [35mMINGW64 [33m/tmp/tutorial[36m (main)[0m
-$ exit
-[?2004llogout
