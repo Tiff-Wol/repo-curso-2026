@@ -1,0 +1,290 @@
+Nombre de campo;"Tipo de
+campo";Contenido
+provincia;Texto;Provincia
+departamento;Texto;Departamento
+sector;Texto;Sector
+ambito;Texto;Ámbito
+inicial_1;Numérico;Matrícula Inicial _1 año corrido
+inicial_2;Numérico;Matrícula Inicial _2 año corrido
+inicial_3;Numérico;Matrícula Inicial _3 año corrido
+inicial_4;Numérico;Matrícula Inicial _4 año corrido
+inicial_5;Numérico;Matrícula Inicial _5 año corrido
+inicial_6;Numérico;Matrícula Inicial _6 año corrido
+inicial_7;Numérico;Matrícula Inicial _7 año corrido
+inicial_8;Numérico;Matrícula Inicial _8 año corrido
+inicial_9;Numérico;Matrícula Inicial _9 año corrido
+inicial_10;Numérico;Matrícula Inicial _10 año corrido
+inicial_11;Numérico;Matrícula Inicial _11 año corrido
+inicial_12;Numérico;Matrícula Inicial _12 año corrido
+inicial_1314;Numérico;Matrícula Inicial _1314 año corrido
+inicial_20;Numérico;Matrícula Inicial de organización no graduada
+m_inicial_1;Numérico;Matrícula Inicial Mujeres _1 año corrido
+m_inicial_2;Numérico;Matrícula Inicial Mujeres _2 año corrido
+m_inicial_3;Numérico;Matrícula Inicial Mujeres _3 año corrido
+m_inicial_4;Numérico;Matrícula Inicial Mujeres _4 año corrido
+m_inicial_5;Numérico;Matrícula Inicial Mujeres _5 año corrido
+m_inicial_6;Numérico;Matrícula Inicial Mujeres _6 año corrido
+m_inicial_7;Numérico;Matrícula Inicial Mujeres _7 año corrido
+m_inicial_8;Numérico;Matrícula Inicial Mujeres _8 año corrido
+m_inicial_9;Numérico;Matrícula Inicial Mujeres _9 año corrido
+m_inicial_10;Numérico;Matrícula Inicial Mujeres _10 año corrido
+m_inicial_11;Numérico;Matrícula Inicial Mujeres _11 año corrido
+m_inicial_12;Numérico;Matrícula Inicial Mujeres _12 año corrido
+m_inicial_1314;Numérico;Matrícula Inicial Mujeres _1314 año corrido
+m_inicial_20;Numérico;Matrícula Inicial Mujeres de organización no graduada
+entrados_1;Numérico;Matrícula Entrados _1 año corrido
+entrados_2;Numérico;Matrícula Entrados _2 año corrido
+entrados_3;Numérico;Matrícula Entrados _3 año corrido
+entrados_4;Numérico;Matrícula Entrados _4 año corrido
+entrados_5;Numérico;Matrícula Entrados_5 año corrido
+entrados_6;Numérico;Matrícula Entrados_6 año corrido
+entrados_7;Numérico;Matrícula Entrados _7 año corrido
+entrados_8;Numérico;Matrícula Entrados_8 año corrido
+entrados_9;Numérico;Matrícula Entrados _9 año corrido
+entrados_10;Numérico;Matrícula Entrados Mujeres _10 año corrido
+entrados_11;Numérico;Matrícula Entrados _11 año corrido
+entrados_12;Numérico;Matrícula Entrados _12 año corrido
+entrados_1314;Numérico;Matrícula Entrados _1314 año corrido
+entrados_20;Numérico;Matrícula Entrados de organización no graduada
+m_entrados_1;Numérico;Matrícula Entrados Mujeres _1 año corrido
+m_entrados_2;Numérico;Matrícula Entrados Mujeres _2 año corrido
+m_entrados_3;Numérico;Matrícula Entrados Mujeres _3 año corrido
+m_entrados_4;Numérico;Matrícula Entrados Mujeres _4 año corrido
+m_entrados_5;Numérico;Matrícula Entrados Mujeres _5 año corrido
+m_entrados_6;Numérico;Matrícula Entrados Mujeres _6 año corrido
+m_entrados_7;Numérico;Matrícula Entrados Mujeres _7 año corrido
+m_entrados_8;Numérico;Matrícula Entrados Mujeres _8 año corrido
+m_entrados_9;Numérico;Matrícula Entrados Mujeres _9 año corrido
+m_entrados_10;Numérico;Matrícula Entrados Mujeres _10 año corrido
+m_entrados_11;Numérico;Matrícula Entrados Mujeres _11 año corrido
+m_entrados_12;Numérico;Matrícula Entrados Mujeres _12 año corrido
+m_entrados_1314;Numérico;Matrícula Entrados Mujeres _1314 año corrido
+m_entrados_20;Numérico;Matrícula Entrados Mujeres de organización no graduada
+scp_1;Numérico;Salidos con Pase _1 año corrido
+scp_2;Numérico;Salidos con Pase _2 año corrido
+scp_3;Numérico;Salidos con Pase _3 año corrido
+scp_4;Numérico;Salidos con Pase _4 año corrido
+scp_5;Numérico;Salidos con Pase _5 año corrido
+scp_6;Numérico;Salidos con Pase _6 año corrido
+scp_7;Numérico;Salidos con Pase _7 año corrido
+scp_8;Numérico;Salidos con Pase _8 año corrido
+scp_9;Numérico;Salidos con Pase _9 año corrido
+scp_10;Numérico;Salidos con Pase _10 año corrido
+scp_11;Numérico;Salidos con Pase _11 año corrido
+scp_12;Numérico;Salidos con Pase _12 año corrido
+scp_1314;Numérico;Salidos con Pase _1314 año corrido
+scp_20;Numérico;Salidos con Pase de organización no graduada
+m_scp_1;Numérico;Salidos con Pase Mujeres _1 año corrido
+m_scp_2;Numérico;Salidos con Pase Mujeres_2 año corrido
+m_scp_3;Numérico;Salidos con Pase Mujeres_3 año corrido
+m_scp_4;Numérico;Salidos con Pase Mujeres_4 año corrido
+m_scp_5;Numérico;Salidos con Pase Mujeres_5 año corrido
+m_scp_6;Numérico;Salidos con Pase Mujeres_6 año corrido
+m_scp_7;Numérico;Salidos con Pase Mujeres_7 año corrido
+m_scp_8;Numérico;Salidos con Pase Mujeres_8 año corrido
+m_scp_9;Numérico;Salidos con Pase Mujeres_9 año corrido
+m_scp_10;Numérico;Salidos con Pase Mujeres_10 año corrido
+m_scp_11;Numérico;Salidos con Pase Mujeres_11 año corrido
+m_scp_12;Numérico;Salidos con Pase Mujeres_12 año corrido
+m_scp_1314;Numérico;Salidos con Pase Mujeres_1314 año corrido
+m_scp_20;Numérico;Salidos con Pase Mujeres de organización no graduada
+ssp_1;Numérico;Salidos sin Pase _1 año corrido
+ssp_2;Numérico;Salidos sin Pase _2 año corrido
+ssp_3;Numérico;Salidos sin Pase _3 año corrido
+ssp_4;Numérico;Salidos sin Pase _4 año corrido
+ssp_5;Numérico;Salidos sin Pase _5 año corrido
+ssp_6;Numérico;Salidos sin Pase _6 año corrido
+ssp_7;Numérico;Salidos sin Pase _7 año corrido
+ssp_8;Numérico;Salidos sin Pase _8 año corrido
+ssp_9;Numérico;Salidos sin Pase _9 año corrido
+ssp_10;Numérico;Salidos sin Pase _10 año corrido
+ssp_11;Numérico;Salidos sin Pase _11 año corrido
+ssp_12;Numérico;Salidos sin Pase _12 año corrido
+ssp_1314;Numérico;Salidos sin Pase _1314 año corrido
+ssp_20;Numérico;Salidos sin Pase de organización no graduada
+m_ssp_1;Numérico;Salidos sin Pase Mujeres_1 año corrido
+m_ssp_2;Numérico;Salidos sin Pase Mujeres_2 año corrido
+m_ssp_3;Numérico;Salidos sin Pase Mujeres_3 año corrido
+m_ssp_4;Numérico;Salidos sin Pase Mujeres_4 año corrido
+m_ssp_5;Numérico;Salidos sin Pase Mujeres_5 año corrido
+m_ssp_6;Numérico;Salidos sin Pase Mujeres_6 año corrido
+m_ssp_7;Numérico;Salidos sin Pase Mujeres_7 año corrido
+m_ssp_8;Numérico;Salidos sin Pase Mujeres_8 año corrido
+m_ssp_9;Numérico;Salidos sin Pase Mujeres_9 año corrido
+m_ssp_10;Numérico;Salidos sin Pase Mujeres_10 año corrido
+m_ssp_11;Numérico;Salidos sin Pase Mujeres_11 año corrido
+m_ssp_12;Numérico;Salidos sin Pase Mujeres_12 año corrido
+m_ssp_1314;Numérico;Salidos sin Pase Mujeres_1314 año corrido
+m_ssp_20;Numérico;Salidos sin Pase Mujeres de organización no graduada
+ultimo_1;Numérico;Matrícula último día de clases _1 año corrido
+ultimo_2;Numérico;Matrícula último día de clases _2 año corrido
+ultimo_3;Numérico;Matrícula último día de clases _3 año corrido
+ultimo_4;Numérico;Matrícula último día de clases _4 año corrido
+ultimo_5;Numérico;Matrícula último día de clases _5 año corrido
+ultimo_6;Numérico;Matrícula último día de clases _6 año corrido
+ultimo_7;Numérico;Matrícula último día de clases _7 año corrido
+ultimo_8;Numérico;Matrícula último día de clases _8 año corrido
+ultimo_9;Numérico;Matrícula último día de clases _9 año corrido
+ultimo_10;Numérico;Matrícula último día de clases _10 año corrido
+ultimo_11;Numérico;Matrícula último día de clases _11 año corrido
+ultimo_12;Numérico;Matrícula último día de clases _12 año corrido
+ultimo_1314;Numérico;Matrícula último día de clases _1314 año corrido
+ultimo_20;Numérico;Matrícula último día de clases de organización no graduada
+m_ultimo_1;Numérico;Matrícula último día de clases Mujeres_1 año corrido
+m_ultimo_2;Numérico;Matrícula último día de clases Mujeres_2 año corrido
+m_ultimo_3;Numérico;Matrícula último día de clases Mujeres_3 año corrido
+m_ultimo_4;Numérico;Matrícula último día de clases Mujeres_4 año corrido
+m_ultimo_5;Numérico;Matrícula último día de clases Mujeres_5 año corrido
+m_ultimo_6;Numérico;Matrícula último día de clases Mujeres_6 año corrido
+m_ultimo_7;Numérico;Matrícula último día de clases Mujeres_7 año corrido
+m_ultimo_8;Numérico;Matrícula último día de clases Mujeres_8 año corrido
+m_ultimo_9;Numérico;Matrícula último día de clases Mujeres_9 año corrido
+m_ultimo_10;Numérico;Matrícula último día de clases Mujeres_10 año corrido
+m_ultimo_11;Numérico;Matrícula último día de clases Mujeres_11 año corrido
+m_ultimo_12;Numérico;Matrícula último día de clases Mujeres_12 año corrido
+m_ultimo_1314;Numérico;Matrícula último día de clases Mujeres_1314 año corrido
+m_ultimo_20;Numérico;Matrícula último día de clases Mujeres de organización no graduada
+promovidos_1;Numérico;Promovidos_1 año corrido
+promovidos_2;Numérico;Promovidos_2 año corrido
+promovidos_3;Numérico;Promovidos_3 año corrido
+promovidos_4;Numérico;Promovidos_4 año corrido
+promovidos_5;Numérico;Promovidos_5 año corrido
+promovidos_6;Numérico;Promovidos_6 año corrido
+promovidos_7;Numérico;Promovidos_7 año corrido
+promovidos_8;Numérico;Promovidos_8 año corrido
+promovidos_9;Numérico;Promovidos_9 año corrido
+promovidos_10;Numérico;Promovidos_10 año corrido
+promovidos_11;Numérico;Promovidos_11 año corrido
+promovidos_12;Numérico;Promovidos_12 año corrido
+promovidos_1314;Numérico;Promovidos_1314 año corrido
+promovidos_20;Numérico;Promovidos de organización no graduada
+m_promovidos_1;Numérico;Promovidos Mujeres_1 año corrido
+m_promovidos_2;Numérico;Promovidos Mujeres_2 año corrido
+m_promovidos_3;Numérico;Promovidos Mujeres_3 año corrido
+m_promovidos_4;Numérico;Promovidos Mujeres_4 año corrido
+m_promovidos_5;Numérico;Promovidos Mujeres_5 año corrido
+m_promovidos_6;Numérico;Promovidos Mujeres_6 año corrido
+m_promovidos_7;Numérico;Promovidos Mujeres_7 año corrido
+m_promovidos_8;Numérico;Promovidos Mujeres_8 año corrido
+m_promovidos_9;Numérico;Promovidos Mujeres_9 año corrido
+m_promovidos_10;Numérico;Promovidos Mujeres_10 año corrido
+m_promovidos_11;Numérico;Promovidos Mujeres_11 año corrido
+m_promovidos_12;Numérico;Promovidos Mujeres_12 año corrido
+m_promovidos_1314;Numérico;Promovidos Mujeres_1314 año corrido
+m_promovidos_20;Numérico;Promovidos Mujeres de organización no graduada
+promovidos_ex_1;Numérico;Promovidos con examen _1 año corrido
+promovidos_ex_2;Numérico;Promovidos con examen _2 año corrido
+promovidos_ex_3;Numérico;Promovidos con examen _3 año corrido
+promovidos_ex_4;Numérico;Promovidos con examen _4 año corrido
+promovidos_ex_5;Numérico;Promovidos con examen _5 año corrido
+promovidos_ex_6;Numérico;Promovidos con examen _6 año corrido
+promovidos_ex_7;Numérico;Promovidos con examen _7 año corrido
+promovidos_ex_8;Numérico;Promovidos con examen _8 año corrido
+promovidos_ex_9;Numérico;Promovidos con examen _9 año corrido
+promovidos_ex_10;Numérico;Promovidos con examen _10 año corrido
+promovidos_ex_11;Numérico;Promovidos con examen _11 año corrido
+promovidos_ex_12;Numérico;Promovidos con examen _12 año corrido
+promovidos_ex_1314;Numérico;Promovidos con examen _1314 año corrido
+promovidos_ex_20;Numérico;Promovidos con examen de organización no graduada
+m_promovidos_ex_1;Numérico;Promovidos con examen Mujeres _1 año corrido
+m_promovidos_ex_2;Numérico;Promovidos con examen Mujeres_2 año corrido
+m_promovidos_ex_3;Numérico;Promovidos con examen Mujeres_3 año corrido
+m_promovidos_ex_4;Numérico;Promovidos con examen Mujeres_4 año corrido
+m_promovidos_ex_5;Numérico;Promovidos con examen Mujeres_5 año corrido
+m_promovidos_ex_6;Numérico;Promovidos con examen Mujeres_6 año corrido
+m_promovidos_ex_7;Numérico;Promovidos con examen Mujeres_7 año corrido
+m_promovidos_ex_8;Numérico;Promovidos con examen Mujeres_8 año corrido
+m_promovidos_ex_9;Numérico;Promovidos con examen Mujeres_9 año corrido
+m_promovidos_ex_10;Numérico;Promovidos con examen Mujeres_10 año corrido
+m_promovidos_ex_11;Numérico;Promovidos con examen Mujeres_11 año corrido
+m_promovidos_ex_12;Numérico;Promovidos con examen Mujeres_12 año corrido
+m_promovidos_ex_1314;Numérico;Promovidos con examen Mujeres_1314 año corrido
+m_promovidos_ex_20;Numérico;Promovidos con examen Mujeres de organización no graduada
+nopromo_1;Numérico;No promovidos _1 año corrido
+nopromo_2;Numérico;No promovidos _2 año corrido
+nopromo_3;Numérico;No promovidos _3 año corrido
+nopromo_4;Numérico;No promovidos _4 año corrido
+nopromo_5;Numérico;No promovidos _5 año corrido
+nopromo_6;Numérico;No promovidos _6 año corrido
+nopromo_7;Numérico;No promovidos _7 año corrido
+nopromo_8;Numérico;No promovidos _8 año corrido
+nopromo_9;Numérico;No promovidos _9 año corrido
+nopromo_10;Numérico;No promovidos _10 año corrido
+nopromo_11;Numérico;No promovidos _11 año corrido
+nopromo_12;Numérico;No promovidos _12 año corrido
+nopromo_1314;Numérico;No promovidos _1314 año corrido
+nopromo_20;Numérico;No promovidos de organización no graduada
+m_nopromo_1;Numérico;No promovidos Mujeres_1 año corrido
+m_nopromo_2;Numérico;No promovidos Mujeres_2 año corrido
+m_nopromo_3;Numérico;No promovidos Mujeres_3 año corrido
+m_nopromo_4;Numérico;No promovidos Mujeres_4 año corrido
+m_nopromo_5;Numérico;No promovidos Mujeres_5 año corrido
+m_nopromo_6;Numérico;No promovidos Mujeres_6 año corrido
+m_nopromo_7;Numérico;No promovidos Mujeres_7 año corrido
+m_nopromo_8;Numérico;No promovidos Mujeres_8 año corrido
+m_nopromo_9;Numérico;No promovidos Mujeres_9 año corrido
+m_nopromo_10;Numérico;No promovidos Mujeres_10 año corrido
+m_nopromo_11;Numérico;No promovidos Mujeres_11 año corrido
+m_nopromo_12;Numérico;No promovidos Mujeres_12 año corrido
+m_nopromo_1314;Numérico;No promovidos Mujeres_1314 año corrido
+m_nopromo_20;Numérico;No promovidos Mujeres de organización no graduada
+regulares_1;Numérico;Alumnos regulares promovidos _1 años corrido
+regulares_2;Numérico;Alumnos regulares promovidos _2 años corrido
+regulares_3;Numérico;Alumnos regulares promovidos _3 años corrido
+regulares_4;Numérico;Alumnos regulares promovidos _4 años corrido
+regulares_5;Numérico;Alumnos regulares promovidos _5 años corrido
+regulares_6;Numérico;Alumnos regulares promovidos _6 años corrido
+regulares_7;Numérico;Alumnos regulares promovidos _7 años corrido
+regulares_8;Numérico;Alumnos regulares promovidos _8 años corrido
+regulares_9;Numérico;Alumnos regulares promovidos _9 años corrido
+regulares_10;Numérico;Alumnos regulares promovidos _10 años corrido
+regulares_11;Numérico;Alumnos regulares promovidos _11 años corrido
+regulares_12;Numérico;Alumnos regulares promovidos _12 años corrido
+regulares_1314;Numérico;Alumnos regulares promovidos _1314 años corrido
+regulares_20;Numérico;Alumnos regulares promovidos de organización no graduada
+m_regulares_1;Numérico;Alumnos regulares promovidos Mujeres_1 años corrido
+m_regulares_2;Numérico;Alumnos regulares promovidos Mujeres_2 años corrido
+m_regulares_3;Numérico;Alumnos regulares promovidos Mujeres_3 años corrido
+m_regulares_4;Numérico;Alumnos regulares promovidos Mujeres_4 años corrido
+m_regulares_5;Numérico;Alumnos regulares promovidos Mujeres_5 años corrido
+m_regulares_6;Numérico;Alumnos regulares promovidos Mujeres_6 años corrido
+m_regulares_7;Numérico;Alumnos regulares promovidos Mujeres_7 años corrido
+m_regulares_8;Numérico;Alumnos regulares promovidos Mujeres_8 años corrido
+m_regulares_9;Numérico;Alumnos regulares promovidos Mujeres_9 años corrido
+m_regulares_10;Numérico;Alumnos regulares promovidos Mujeres_10 años corrido
+m_regulares_11;Numérico;Alumnos regulares promovidos Mujeres_11 años corrido
+m_regulares_12;Numérico;Alumnos regulares promovidos Mujeres_12 años corrido
+m_regulares_1314;Numérico;Alumnos regulares promovidos Mujeres_1314 años corrido
+m_regulares_20;Numérico;Alumnos regulares promovidos Mujeres de organización no graduada
+otros_1;Numérico;Otros promovidos _1 año corrido
+otros_2;Numérico;Otros promovidos _2 año corrido
+otros_3;Numérico;Otros promovidos _3 año corrido
+otros_4;Numérico;Otros promovidos _4 año corrido
+otros_5;Numérico;Otros promovidos _5 año corrido
+otros_6;Numérico;Otros promovidos _6 año corrido
+otros_7;Numérico;Otros promovidos _7 año corrido
+otros_8;Numérico;Otros promovidos _8 año corrido
+otros_9;Numérico;Otros promovidos _9 año corrido
+otros_10;Numérico;Otros promovidos _10 año corrido
+otros_11;Numérico;Otros promovidos _11 año corrido
+otros_12;Numérico;Otros promovidos _12 año corrido
+otros_1314;Numérico;Otros promovidos _1314 año corrido
+otros_20;Numérico;Otros promovidos de organización no graduada
+m_otros_1;Numérico;Otros promovidos Mujeres_1 año corrido
+m_otros_2;Numérico;Otros promovidos Mujeres_2 año corrido
+m_otros_3;Numérico;Otros promovidos Mujeres_3 año corrido
+m_otros_4;Numérico;Otros promovidos Mujeres_4 año corrido
+m_otros_5;Numérico;Otros promovidos Mujeres_5 año corrido
+m_otros_6;Numérico;Otros promovidos Mujeres_6 año corrido
+m_otros_7;Numérico;Otros promovidos Mujeres_7 año corrido
+m_otros_8;Numérico;Otros promovidos Mujeres_8 año corrido
+m_otros_9;Numérico;Otros promovidos Mujeres_9 año corrido
+m_otros_10;Numérico;Otros promovidos Mujeres_10 año corrido
+m_otros_11;Numérico;Otros promovidos Mujeres_11 año corrido
+m_otros_12;Numérico;Otros promovidos Mujeres_12 año corrido
+m_otros_1314;Numérico;Otros promovidos Mujeres_1314 año corrido
+m_otros_20;Numérico;Otros promovidos Mujeres de organización no graduada
+primaria_egresados;Numérico;Egresados de primaria
+primaria_m_egresados;Numérico;Egresados de primaria Mujeres
+secundaria_egresados;Numérico;Egresados de secundaria
+secundaria_m_egresados;Numérico;Egresados de secundaria Mujeres
